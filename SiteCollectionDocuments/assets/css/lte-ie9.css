@@ -1,0 +1,83 @@
+.icw, 
+.icw .result-note, 
+.table .action-table,
+.popover.tour-tour, 
+.popover.tour-tour .btn { 
+    font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+
+.select:after { display: none;}
+.select select { padding-right: 0;}
+.select select.chosen-select { padding-right: 20px;}
+.select .chosen-container-single .chosen-single div {
+    width: 40px; 
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+.select .chosen-container-single .chosen-single div b:before {
+    content: "\e90d";
+    font-family: 'icokbank';
+    font-size: 80%;
+    font-weight: normal;
+}
+.select-transparent:after { display: none;}
+
+.search-form .overlabel, .search-form input:focus + .overlabel, .search-form .filled input + .overlabel { line-height: 48px;}
+.search-form .select .chosen-container-single .chosen-single div {
+    width: 55px;
+    height: 48px;
+    line-height: 48px;
+}
+.search-form .select .chosen-container-single .chosen-single div b:before {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.navtop .list-inline li.divide { line-height: 40px; vertical-align: top;}
+.navtop .select-language { vertical-align: middle;}
+.navtop .select-language select { padding: 5px 0; color: #fff !important;}
+
+.lt-ie9 .icw img { max-width: none;}
+
+.lt-ie9 .container { max-width: 1170px; min-width: 1170px;}
+.lt-ie9 .container-md { max-width: 1010px; min-width: 1010px;}
+
+.lt-ie9 .hidden-w1024,
+.lt-ie9 .hidden-w991,
+.lt-ie9 .hidden-w800,
+.lt-ie9 .hidden-w767 { 
+    display: inherit !important;
+}
+.lt-ie9 .visible-w1024, 
+.lt-ie9 .visible-w991,
+.lt-ie9 .visible-w800,
+.lt-ie9 .visible-w767 { 
+    display: none !important;
+}
+
+.lt-ie9 #navmain .li-logo { padding-right: 22px;}
+
+.lt-ie9 .select:after,
+.lt-ie9 .sortby .select:after {
+    display: none;
+}
+.lt-ie9 .select select, 
+.lt-ie9 .select select:focus {
+    padding-right: 6px;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .master-slider .ms-info-box {
+        position: relative;
+        z-index: 5;
+        pointer-events: none;
+    }
+    .master-slider .ms-info-box-m {
+        position: static;
+        z-index: auto;
+    }
+    
+}

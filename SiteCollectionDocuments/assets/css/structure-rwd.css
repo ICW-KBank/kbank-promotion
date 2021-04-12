@@ -1,0 +1,214 @@
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, 
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-xs,
+.container-sm,
+.container-md {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container-xs {
+    max-width: 830px;
+}
+.container-sm {
+    max-width: 930px;
+}
+.container-md {
+    max-width: 1030px;
+}
+
+@media screen and (min-width:768px) {
+    .localnav-links.pull-right li, ul.slicknav-menu.ps-theme-default.pull-right li { padding: 0 0 0 20px;}
+    ul.slicknav-menu.ps-theme-default.pull-right li:first-child { padding: 0;}
+    ul.slicknav-menu.ps-container>.ps-scrollbar-y-rail { display: none !important;}
+    .localnav-links-wrap.pull-right .localnav-links { padding-left: 0; padding-right: 0;}
+    .localnav-links-wrap.pull-right .localnav-links li { padding: 0 20px 0 0 !important;}
+    .localnav-links-wrap.pull-right .localnav-links li:first-child { padding-left: 20px !important;}
+}
+
+@media screen and (min-width:1025px) {
+    .visible-w1024 { display: none !important;}
+}
+
+@media screen and (max-width: 1199px) {
+   .container {
+        width: 100%;
+        max-width: 1140px;
+    } 
+}
+
+@media screen and (max-width:1024px) {
+    .hidden-w1024 { display: none !important;}
+    .img-logo, .header .img-logo {
+        width: 120px;
+    }
+    .main {
+        padding-top: 57px;
+    }
+    .localnav-wrap { height: 55px; line-height: 55px;}
+}
+
+@media screen and (max-width:991px) {
+    .localnav-links, .localnav-links-wrap { max-width: 60%;}
+    /* Multimenu */
+    .localnav.with-multimenu, 
+    .sidebar-fixed.with-multimenu { 
+        display: none !important;
+    }
+    .footer-utility {
+        padding: 0;
+        border-top: 0;
+        border-bottom: 0;
+    }
+    .footer-utility .links {
+        float: none;
+        margin-top: 0;
+        padding: 15px 0;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+    }
+    .footer-utility .links li:first-child {
+        padding-left: 0;
+    }
+    .footer-utility .affiliate-websites {
+        float: none;
+        margin: 15px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .localnav {
+        position: relative;
+        color: #333;
+    }
+    .localnav .ic-phone {
+        color: #00a950;
+    }
+    .localnav-wrap {
+        position: static;
+        height: 45px;
+        line-height: 45px;
+    }
+    .localnav-links-wrap:before, 
+    .localnav-links-wrap:after {
+        height: 25px;
+    }
+    
+    .localnav-tags .localnav-wrap { padding: 0;}
+    .localnav-tags .list-tags { padding: 12px 0;}
+    
+    .slicknav .localnav-links {
+        text-align: left;
+    }
+    .slicknav .localnav-links-wrap {
+        position: inherit;
+        display: inline;
+        max-width: 100%;
+        float: none !important;
+    }
+    .slicknav .localnav-links-wrap:before, 
+    .slicknav .localnav-links-wrap:after {
+        display: none;
+    }
+    .slicknav .localnav-links-wrap .localnav-links {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .slicknav-btn {
+        display: inline-block;
+        width: 22px; height: inherit;
+        text-align: center;
+    }
+    .slicknav-btn:before {
+        font-family: 'icokbank';
+        content: "\e90d";
+    }
+    .slicknav-open:before {
+        content: "\e90e";
+        color: #00a950;
+    }
+    
+    ul.slicknav-menu,
+    ul.slicknav-menu li,
+    ul.slicknav-menu .link {
+        display: block;
+        width: 100%;
+        line-height: normal;
+    }
+    ul.slicknav-menu {
+        display: none;
+        position: absolute;
+        left: 0; top: 45px;
+        z-index: 100;
+        width: 100%;
+        max-width: 100%;
+        max-height: 60vh;
+        white-space: normal;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        overflow-x: hidden !important;
+        -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+    }
+    ul.slicknav-menu a.link {
+        font-size: 16px;
+        padding: 15px 0;
+        border-top: 1px solid #f2f2f2;
+    }
+    ul.slicknav-menu li,
+    ul.slicknav-menu li:first-child,
+    ul.slicknav-menu li:last-child {
+        padding: 0 30px !important;
+    }
+    ul.slicknav-menu li:last-child {
+        padding-right: 30px;
+    }
+    ul.slicknav-menu li:first-child a.link {
+        border-top: 0;
+    }
+    ul.slicknav-menu li.li-btn {
+        padding-top: 20px !important;
+        text-align: center;
+    }
+    ul.slicknav-menu.ps-container>.ps-scrollbar-x-rail { display: none !important;}
+    ul.slicknav-menu.ps-container>.ps-scrollbar-y-rail { display: none !important;}
+    .navfooter, .footer-directory, .footer-utility .affiliate-websites { display: none;}
+    .footer-utility .links { border-top: 0;}
+    .footer-utility .links li { padding-left: 10px;}
+    .footer-utility .newsletter { float: none; width: 100%;}
+    .footer-bottom { border-top: 0; padding-top: 0;}
+    .footer-locale, .footer-social { float: none; margin-bottom: 20px;}
+    .footer-legal { text-align: center; border-top: 0;}
+    .footer-legal .copyright, .footer-legal .links { display: block; float: none;}
+    .footer-legal .copyright { margin-bottom: 3px;}
+    .footer-legal .links li { padding-left: 0; padding-right: 10px;}
+    .footer-legal .links li:last-child { padding-right: 0;}
+    .slogan { padding: 15px 0;}
+    .slogan .img { width: 153px;}
+    
+    .footer-docstyle .footer-legal { padding: 15px 0;}
+    .footer-docstyle .slogan { padding: 20px;}
+}

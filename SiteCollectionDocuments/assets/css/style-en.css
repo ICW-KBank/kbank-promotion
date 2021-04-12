@@ -1,0 +1,214 @@
+.icw h1, .icw .h1, 
+.icw h2, .icw .h2,
+.icw h3, .icw .h3,
+.icw h4, .icw .h4,
+.icw h5, .icw .h5,
+.icw h6, .icw .h6,
+.table th,
+.table thead td,
+.table-heading .heading,
+.ms-info-box .heading, 
+.ms-info-box h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+}
+
+.icw h1 > b, .icw .h1 > b, 
+.icw h2 > b, .icw .h2 > b, 
+.icw h3 > b, .icw .h3 > b, 
+.icw h4 > b, .icw .h4 > b, 
+.icw h5 > b, .icw .h5 > b, 
+.icw h6 > b, .icw .h6 > b, 
+.icw h1 > strong, .icw .h1 > strong, 
+.icw h2 > strong, .icw .h2 > strong, 
+.icw h3 > strong, .icw .h3 > strong, 
+.icw h4 > strong, .icw .h4 > strong, 
+.icw h5 > strong, .icw .h5 > strong, 
+.icw h6 > strong, .icw .h6 > strong,
+.ms-info-box .heading strong, 
+.ms-info-box h2 strong {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.icw h1 > i, .icw .h1 > i, 
+.icw h2 > i, .icw .h2 > i, 
+.icw h1 > em, .icw .h1 > em, 
+.icw h2 > em, .icw .h2 > em { 
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.icw h3 > i, .icw .h3 > i, 
+.icw h4 > i, .icw .h4 > i, 
+.icw h5 > i, .icw .h5 > i, 
+.icw h6 > i, .icw .h6 > i, 
+.icw h3 > em, .icw .h3 > em, 
+.icw h4 > em, .icw .h4 > em, 
+.icw h5 > em, .icw .h5 > em, 
+.icw h6 > em, .icw .h6 > em { 
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.icw h1, .icw .h1, 
+.icw h2, .icw .h2,
+.ms-info-box .heading, 
+.ms-info-box h2 {
+    font-weight: lighter;
+}
+
+.icw h3, .icw .h3,
+.icw h4, .icw .h4,
+.icw h5, .icw .h5,
+.icw h6, .icw .h6 {
+    font-weight: normal;
+}
+
+.icw h1, .icw .h1,
+.ms-info-box .heading,
+.ms-info-box h2 { 
+    font-size: 44px;
+}
+.icw h2, .icw .h2 { 
+    font-size: 30px;
+}
+
+.table th, 
+.table thead td, 
+.table-heading .heading {
+    font-size: 25px;
+}
+
+.icw h3, .icw .h3,
+.table tbody th { 
+    font-size: 21px;
+}
+
+.icw h4, .icw .h4,
+.thumbnail .caption h3,
+.box-links .heading,
+.icw .table h3, 
+.component-block .heading,
+.sidebar .heading,
+.thumbnail-result .heading { 
+    font-size: 18px;
+}
+
+.icw h5, .icw .h5,
+.icw h6, .icw .h6 {
+    font-size: 16px;
+}
+
+.font-didot {
+    font-size: 100%;
+    line-height: 1;
+}
+
+.entrycontent h1 a, 
+.entrycontent h2 a, 
+.entrycontent h3 a, 
+.entrycontent h4 a, 
+.entrycontent h5 a, 
+.entrycontent h6 a, 
+.entrycontent .h1 a, 
+.entrycontent .h2 a, 
+.entrycontent .h3 a, 
+.entrycontent .h4 a,
+.entrycontent .h5 a, 
+.entrycontent .h6 a {
+    line-height: 1;
+    /*text-decoration: underline !important;
+    border-bottom: 0 !important;*/
+}
+
+.thumbnail-content .caption:after {
+    height: 5px;
+}
+
+.number-group .press {
+    width: 95px;    
+}
+
+ul.link-box li {
+    padding: 30px 15px;
+}
+
+.thumbnail-news .caption h3, 
+.thumbnail-content-sm .caption h3,
+.thumbnail-autoheight .caption h3 {
+    font-size: 18px !important;
+    line-height: 1.2;
+}
+
+@media screen and (max-width:1199px) {
+    
+    .icw h1, .icw .h1, .ms-info-box .heading, .ms-info-box h2 { font-size: 40px;}
+    .icw h2, .icw .h2 { font-size: 26px;}
+    
+    .table th, 
+    .table thead td, 
+    .table-heading .heading { 
+        font-size: 24px;
+    }
+    
+    .icw h3, 
+    .icw .h3, 
+    .table tbody th { 
+        font-size: 20px;
+    }
+    
+    .icw h4, .icw .h4,
+    .thumbnail .caption h3,
+    .box-links .heading,
+    .icw .table h3, 
+    .component-block .heading,
+    .sidebar .heading,
+    .thumbnail-result .heading { 
+        font-size: 16px;
+    }
+    
+    .thumbnail-news .caption h3, 
+    .thumbnail-content-sm .caption h3,
+    .thumbnail-autoheight .caption h3 {
+        font-size: 16px !important;
+    }
+    
+    .thumbnail-news .caption h3, 
+    .thumbnail-content-sm .caption h3,
+    .thumbnail-autoheight .caption h3 {
+        height: 45px;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    
+    .icw h1, .icw .h1, .ms-info-box .heading, .ms-info-box h2 { font-size: 35px;}
+    .icw h2, .icw .h2 { font-size: 25px;}
+    
+}
+
+@media screen and (max-width:991px) {
+    
+    .icw h1, .icw .h1, .ms-info-box .heading, .ms-info-box h2 { font-size: 25px;}
+    .icw h2, .icw .h2 { font-size: 22px;}
+    
+    .icw h5, .icw .h5,
+    .icw h6, .icw .h6 {
+        font-size: 14px;
+    }
+    
+    .table th, 
+    .table thead td, 
+    .table-heading .heading {
+        font-size: 20px;
+    }
+    .table tbody th {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    
+    #recommend-video .sc-heading { font-size: 18px !important;}
+    
+}

@@ -1,0 +1,43 @@
+.compn-overflow .compn-overflow-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.compn-overflow .compn-overflow-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.compn-overflow .compn-overflow-wrapper .compn {
+  min-width: 1140px;
+}
+
+.compn-overflow .compn-overflow-scroll-wrapper {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  position: relative;
+
+  margin-bottom: 15px;
+
+  background: #F1F1F1;
+
+  display: block;
+}
+
+.compn-overflow .compn-overflow-scroll-wrapper .compn-overflow-scroll {
+  width: 10%;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+
+  background: #00A950;
+}
+
+@media screen and (min-width: 1170px) {
+  .compn-overflow .compn-overflow-scroll-wrapper {
+    display: none;
+  }
+}

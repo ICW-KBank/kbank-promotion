@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'sukhumvitlight';
+	src: url('../fonts/sukhumvitset/SukhumvitSet-Light.eot');
+	src: url('../fonts/sukhumvitset/SukhumvitSet-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Light.woff2') format('woff2'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Light.woff') format('woff'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Light.ttf') format('truetype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Light.svg#SukhumvitSet-Light') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'sukhumvitsemibold';
+	src: url('../fonts/sukhumvitset/SukhumvitSet-SemiBold.eot');
+	src: url('../fonts/sukhumvitset/SukhumvitSet-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-SemiBold.woff2') format('woff2'),
+		url('../fonts/sukhumvitset/SukhumvitSet-SemiBold.woff') format('woff'),
+		url('../fonts/sukhumvitset/SukhumvitSet-SemiBold.ttf') format('truetype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-SemiBold.svg#SukhumvitSet-SemiBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'sukhumvitmedium';
+	src: url('../fonts/sukhumvitset/SukhumvitSet-Medium.eot');
+	src: url('../fonts/sukhumvitset/SukhumvitSet-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Medium.woff2') format('woff2'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Medium.woff') format('woff'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Medium.ttf') format('truetype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Medium.svg#SukhumvitSet-Medium') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'sukhumvitbold';
+	src: url('../fonts/sukhumvitset/SukhumvitSet-Bold.eot');
+	src: url('../fonts/sukhumvitset/SukhumvitSet-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Bold.woff2') format('woff2'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Bold.woff') format('woff'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Bold.ttf') format('truetype'),
+		url('../fonts/sukhumvitset/SukhumvitSet-Bold.svg#SukhumvitSet-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}

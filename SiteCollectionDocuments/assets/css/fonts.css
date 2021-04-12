@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'DBThaiTextX';
+    src: url('../fonts/dbThaiTextX/DBThaiTextX.eot');
+    src: url('../fonts/dbThaiTextX/DBThaiTextX.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbThaiTextX/DBThaiTextX.woff2') format('woff2'),
+         url('../fonts/dbThaiTextX/DBThaiTextX.woff') format('woff'),
+         url('../fonts/dbThaiTextX/DBThaiTextX.ttf') format('truetype'),
+         url('../fonts/dbThaiTextX/DBThaiTextX.svg#DBThaiTextX') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DBThaiTextXBd';
+    src: url('../fonts/dbThaiTextX/DBThaiTextXBd.eot');
+    src: url('../fonts/dbThaiTextX/DBThaiTextXBd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBd.woff2') format('woff2'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBd.woff') format('woff'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBd.ttf') format('truetype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBd.svg#DBThaiTextXBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DBThaiTextXBdIt';
+    src: url('../fonts/dbThaiTextX/DBThaiTextXBdIt.eot');
+    src: url('../fonts/dbThaiTextX/DBThaiTextXBdIt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBdIt.woff2') format('woff2'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBdIt.woff') format('woff'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBdIt.ttf') format('truetype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXBdIt.svg#DBThaiTextXBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DBThaiTextXItalic';
+    src: url('../fonts/dbThaiTextX/DBThaiTextXItalic.eot');
+    src: url('../fonts/dbThaiTextX/DBThaiTextXItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXItalic.woff2') format('woff2'),
+         url('../fonts/dbThaiTextX/DBThaiTextXItalic.woff') format('woff'),
+         url('../fonts/dbThaiTextX/DBThaiTextXItalic.ttf') format('truetype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXItalic.svg#DBThaiTextXItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DBThaiTextXLi';
+    src: url('../fonts/dbThaiTextX/DBThaiTextXLi.eot');
+    src: url('../fonts/dbThaiTextX/DBThaiTextXLi.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLi.woff2') format('woff2'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLi.woff') format('woff'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLi.ttf') format('truetype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLi.svg#DBThaiTextXLi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DBThaiTextXLiIt';
+    src: url('../fonts/dbThaiTextX/DBThaiTextXLiIt.eot');
+    src: url('../fonts/dbThaiTextX/DBThaiTextXLiIt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLiIt.woff2') format('woff2'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLiIt.woff') format('woff'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLiIt.ttf') format('truetype'),
+         url('../fonts/dbThaiTextX/DBThaiTextXLiIt.svg#DBThaiTextXLiIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('../fonts/didot/DidotRegular.eot');
+    src: url('../fonts/didot/DidotRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/didot/DidotRegular.woff2') format('woff2'),
+         url('../fonts/didot/DidotRegular.woff') format('woff'),
+         url('../fonts/didot/DidotRegular.ttf') format('truetype'),
+         url('../fonts/didot/DidotRegular.svg#DidotRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+}
+
+@font-face {
+    font-family: 'DidotBold';
+    src: url('../fonts/didot/DidotBold.eot');
+    src: url('../fonts/didot/DidotBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/didot/DidotBold.woff2') format('woff2'),
+         url('../fonts/didot/DidotBold.woff') format('woff'),
+         url('../fonts/didot/DidotBold.ttf') format('truetype'),
+         url('../fonts/didot/DidotBold.svg#DidotBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+}
+
+@font-face {
+    font-family: 'DidotItalic';
+    src: url('../fonts/didot/DidotItalic.eot');
+    src: url('../fonts/didot/DidotItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/didot/DidotItalic.woff2') format('woff2'),
+         url('../fonts/didot/DidotItalic.woff') format('woff'),
+         url('../fonts/didot/DidotItalic.ttf') format('truetype'),
+         url('../fonts/didot/DidotItalic.svg#DidotItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+}
+
+@font-face {
+    font-family: 'GothamRoundedLight';
+    src: url('../fonts/gotham/GothamRoundedLight.eot');
+    src: url('../fonts/gotham/GothamRoundedLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham/GothamRoundedLight.woff2') format('woff2'),
+         url('../fonts/gotham/GothamRoundedLight.woff') format('woff'),
+         url('../fonts/gotham/GothamRoundedLight.ttf') format('truetype'),
+         url('../fonts/gotham/GothamRoundedLight.svg#GothamRoundedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaHeavyBT';
+    src: url('../fonts/futuraHeavyBT/FuturaHeavyBT.eot');
+    src: url('../fonts/futuraHeavyBT/FuturaHeavyBT.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futuraHeavyBT/FuturaHeavyBT.woff2') format('woff2'),
+         url('../fonts/futuraHeavyBT/FuturaHeavyBT.woff') format('woff'),
+         url('../fonts/futuraHeavyBT/FuturaHeavyBT.ttf') format('truetype'),
+         url('../fonts/futuraHeavyBT/FuturaHeavyBT.svg#FuturaHeavyBT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ITC Giovanni */
+@font-face {
+    font-family: 'itc_giovannibook';
+    src: url('../fonts/giovanni/giovanni-book.eot');
+    src: url('../fonts/giovanni/giovanni-book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/giovanni/giovanni-book.woff2') format('woff2'),
+         url('../fonts/giovanni/giovanni-book.woff') format('woff'),
+         url('../fonts/giovanni/giovanni-book.ttf') format('truetype'),
+         url('../fonts/giovanni/giovanni-book.svg#itc_giovannibook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notosans_thai';
+    src: url('../fonts/notosans/noto-sans-thai-regular.eot');
+    src: url('../fonts/notosans/noto-sans-thai-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans/noto-sans-thai-regular.woff2') format('woff2'),
+         url('../fonts/notosans/noto-sans-thai-regular.woff') format('woff'),
+         url('../fonts/notosans/noto-sans-thai-regular.ttf') format('truetype'),
+         url('../fonts/notosans/noto-sans-thai-regular.svg#noto_sans_thai_uiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notosans_thai';
+    src: url('../fonts/notosans/noto-sans-thai-bold.eot');
+    src: url('../fonts/notosans/noto-sans-thai-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans/noto-sans-thai-bold.woff2') format('woff2'),
+         url('../fonts/notosans/noto-sans-thai-bold.woff') format('woff'),
+         url('../fonts/notosans/noto-sans-thai-bold.ttf') format('truetype'),
+         url('../fonts/notosans/noto-sans-thai-bold.svg#noto_sans_thai_uibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notosans';
+    src: url('../fonts/notosans/notosans-regular.eot');
+    src: url('../fonts/notosans/notosans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans/notosans-regular.woff2') format('woff2'),
+         url('../fonts/notosans/notosans-regular.woff') format('woff'),
+         url('../fonts/notosans/notosans-regular.ttf') format('truetype'),
+         url('../fonts/notosans/notosans-regular.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notosans';
+    src: url('../fonts/notosans/notosans-bold.eot');
+    src: url('../fonts/notosans/notosans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans/notosans-bold.woff2') format('woff2'),
+         url('../fonts/notosans/notosans-bold.woff') format('woff'),
+         url('../fonts/notosans/notosans-bold.ttf') format('truetype'),
+         url('../fonts/notosans/notosans-bold.svg#noto_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
