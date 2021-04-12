@@ -31,14 +31,14 @@ function js() {
 
   return src(source)
     .pipe(changed(source))
-    .pipe(concat("bundle.js"))
+    .pipe(concat('bundle.js'))
     .pipe(babel())
     .pipe(
       rename({
-        extname: ".min.js",
-      }),
+        extname: '.min.js',
+      })
     )
-    .pipe(dest(distDir + "/js/dist/"))
+    .pipe(dest(distDir + '/dist/'))
     .pipe(browserSync.stream());
 }
 
