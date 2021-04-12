@@ -13,6 +13,8 @@
     }
   }
   .detail {
+    overflow-x: hidden;
+
     .headline {
       text-align: center;
       .heading {
@@ -54,12 +56,17 @@
       }
     }
 
-    .table-anime {
+    .table-anime {      
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
       position: absolute;
       margin-left: auto;
       margin-right: auto;
-      transform: translateY(-50%);
-      top: 50%;      
+      bottom: 0;
+      top: 0;      
       left: 0;
       right: 0;
       background-color: rgba(0,0,0,0.65);      
@@ -67,12 +74,13 @@
       cursor: pointer;  
 
       &-txt {
-        font-family: $font-kanit;
-        font-size: 14px;
+        font-family: $font-dbthaitextx;
+        font-weight: 300;
+        font-size: 34px;
         text-shadow: -1px 1px 2px #000;
         line-height: 0.8;
         color: #fff;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
       }
       &-icon {
         width: 216px;
@@ -81,12 +89,18 @@
     }
 
     .table-750 {
-      max-width: 750px;
+      max-width: 100%;
+      width: 100%;
       margin: 0 auto;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      // border-collapse: collapse;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding-bottom: 5px;
 
-      &-row {
+      &__wrap {
+        width: 750px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-left: auto;
+        margin-right: auto;
       }
     }
 
