@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="content">
                                     <!-- Table -->
-                                    <h3 class="tw-hidden md:tw-hidden txt-popup tw-text-center"><a href="#"
+                                    <h3 class="tw-block md:tw-hidden txt-popup tw-text-center"><a href="#"
                                             class="txt-popup-link tw-text-gray-600 text-sm"><img
                                                 src="/SiteCollectionDocuments/promotion/xpc-202104/img/icons/icon-zoom.png"
                                                 class="txt-popup-icon" alt="zoom icon"> กดที่รูปเพื่อขยายตาราง</a></h3>
@@ -152,7 +152,10 @@
                                                     alt="คลิ๊กและเลื่อนดูข้อมูล">
                                             </div>
                                         </div>
-                                        <div class="table-750 ">
+                                        <figure class="tw-mb-0">
+                                            <img src="" alt="">
+                                        </figure>
+                                        <div class="table-750 tw-hidden md:tw-block">
                                             <div
                                                 class="table-750__wrap tw-border-collapse tw-w-full tw-table tw-box-border tw-text-center tw-bg-white tw-rounded-llg">
                                                 <div class="tw-table-header-group">
