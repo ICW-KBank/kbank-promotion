@@ -92,9 +92,13 @@
       max-width: 100%;
       width: 100%;
       margin: 0 auto;
-      overflow-x: scroll;
+      overflow-x: hidden;
       overflow-y: hidden;
       padding-bottom: 5px;
+
+      @include respond-to(tablet) {        
+        overflow-x: scroll;
+      }
 
       &__wrap {
         width: 750px;
