@@ -35,10 +35,10 @@
 
     <!-- Build CSS -->
     <link rel="stylesheet"
-        href="/SiteCollectionDocuments/promotion/xpc-202104/plugins/magnific-popup/magnific-popup.css?v=1.0.1">
-    <link rel="stylesheet" href="/SiteCollectionDocuments/promotion/xpc-202104/css/tailwind.css?v=1.0.1">
+        href="/SiteCollectionDocuments/promotion/xpc-202104/plugins/magnific-popup/magnific-popup.css?v=1.0.2">
+    <link rel="stylesheet" href="/SiteCollectionDocuments/promotion/xpc-202104/css/tailwind.css?v=1.0.2">
     <link rel="stylesheet"
-        href="/SiteCollectionDocuments/promotion/xpc-202104/dist/page-promotion-xpc-202104.min.css?v=1.0.1">
+        href="/SiteCollectionDocuments/promotion/xpc-202104/dist/page-promotion-xpc-202104.min.css?v=1.0.2">
     <!-- END Build CSS -->
 
     <!--[if lte IE 9]>
@@ -421,7 +421,7 @@
         src="/SiteCollectionDocuments/promotion/xpc-202104/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <script type="text/javascript"
-        src="/SiteCollectionDocuments/promotion/xpc-202104/dist/bundle.min.js?v=1.0.1"></script>
+        src="/SiteCollectionDocuments/promotion/xpc-202104/dist/bundle.min.js?v=1.0.2"></script>
 </body>
 
 </html>
