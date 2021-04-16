@@ -140,20 +140,23 @@
                                 </div>
                                 <div class="content">
                                     <!-- Table -->
-                                    <h3 class="tw-block md:tw-hidden txt-popup tw-text-center"><a href="#"
-                                            class="txt-popup-link tw-text-gray-600 text-sm"><img
+                                    <h3 class="tw-block md:tw-hidden txt-popup tw-text-center"><a href="#popup-table-750"
+                                            class="txt-popup-link tw-text-gray-600 text-sm link-popup-img"><img
                                                 src="/SiteCollectionDocuments/promotion/xpc-202104/img/icons/icon-zoom.png"
                                                 class="txt-popup-icon" alt="zoom icon"> กดที่รูปเพื่อขยายตาราง</a></h3>
                                     <div class="tw-relative">
-                                        <div class="tw-absolute table-anime tw-z-10 tw-w-full tw-h-full tw-flex md:tw-hidden">
+                                        <!-- <div class="tw-absolute table-anime tw-z-10 tw-w-full tw-h-full tw-flex md:tw-hidden">
                                             <p class="table-anime-txt">คลิกและเลื่อนเพื่อดูข้อมูล</p>
                                             <div class="table-anime-icon hand-slide"><img
                                                     src="/SiteCollectionDocuments/promotion/xpc-202104/img/icons/icon-scroll.gif"
                                                     alt="คลิ๊กและเลื่อนดูข้อมูล">
                                             </div>
-                                        </div>
-                                        <figure class="tw-mb-0">
-                                            <img src="" alt="">
+                                        </div> -->
+                                        <figure class="tw-mb-0 tw-mx-auto tw-text-center img-popup tw-block md:tw-hidden">
+                                            <a href="#popup-table-750" class="tw-block link-popup-img"><img
+                                                    src="/SiteCollectionDocuments/promotion/xpc-202104/img/sms/img-table@2x.png"
+                                                    alt="Image XPress Loan on Lmobile">
+                                            </a>
                                         </figure>
                                         <div class="table-750 tw-hidden md:tw-block">
                                             <div
@@ -390,10 +393,136 @@
         </main>
         <!-- MAIN : END -->
     </div>
-
+    
     <!-- end #page -->
     <div class="slogan" style="text-align: center;">
         <img src="/SiteCollectionDocuments/assets/img/slogan.png" alt="บริการทุกระดับประทับใจ" class="img">
+    </div>
+
+    <!-- Popup Maginafic -->
+    <div id="popup-table-750" class="page-xpc-202104 white-popup mfp-hide mfp-align-top">
+        <div class="detail">
+            <div class="tw-relative">
+                <div class="tw-absolute table-anime tw-z-10 tw-w-full tw-h-full tw-flex md:tw-hidden">
+                    <p class="table-anime-txt">คลิกและเลื่อนเพื่อดูข้อมูล</p>
+                    <div class="table-anime-icon hand-slide"><img
+                            src="/SiteCollectionDocuments/promotion/xpc-202104/img/icons/icon-scroll.gif"
+                            alt="คลิ๊กและเลื่อนดูข้อมูล">
+                    </div>
+                </div>
+                <div class="table-750">
+                    <div
+                        class="table-750__wrap tw-border-collapse tw-w-full tw-table tw-box-border tw-text-center tw-bg-white tw-rounded-llg">
+                        <div class="tw-table-header-group">
+                            <div class="table-750-row tw-table-row tw-bg-green-900 tw-text-white">
+                                <div
+                                    class="table-750-cell tw-table-cell tw-p-2.5 tw-border-r tw-border-gray-200 tw-rounded-tl-llg tw-align-middle tw-text-base tw-rounded-tl-llg">
+                                    ทำรายการเงินด่วน Smart Cash
+                                    <span class="tw-block">ต่อรายการ (บาท) ภายใน</span>
+                                    <span class="tw-block">ระยะเวลาโครงการ</span>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-p-2.5 tw-border-r tw-border-gray-200 tw-align-middle tw-text-base">
+                                    คงค้างยอด
+                                    <span class="tw-block">ตั้งแต่ (บาท)</span>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-p-2.5 tw-border-r tw-borde-gray-200 tw-align-middle tw-text-base">
+                                    รับเครดิตเงินคืน (บาท) / สัปดาห์
+                                    <span class="tw-block">เมื่อคงค้างยอดทุกวันศุกร์</span>
+                                    <span class="tw-block">ของเดือน เม.ย. 64 - มิ.ย. 64</span>
+                                </div>
+                                <div class="tw-table-cell tw-p-2.5 tw-align-middle tw-text-base tw-rounded-tr-llg">
+                                    รับเครดิตเงินคืน
+                                    <span class="tw-block">รวมสูงสุด (บาท)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw-table-row-group">
+                            <div class="tw-table-row border tw-text-gray-700">
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>30,000 เป็นต้นไป</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>30,000</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>40</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r-0 tw-border-b tw-borde-gray-200">
+                                    <p
+                                        class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                        400</p>
+                                </div>
+                            </div>
+                            <div class="tw-table-row border tw-text-gray-700">
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>50,000 เป็นต้นไป</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>50,000</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>80</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r-0 tw-border-b tw-borde-gray-200">
+                                    <p
+                                        class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                        800</p>
+                                </div>
+                            </div>
+                            <div class="tw-table-row border tw-text-gray-700">
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>100,000 เป็นต้นไป</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>100,000</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-border-b tw-borde-gray-200">
+                                    <p>165</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r-0 tw-border-b tw-borde-gray-200">
+                                    <p
+                                        class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                        1,650</p>
+                                </div>
+                            </div>
+                            <div class="tw-table-row border tw-text-gray-700">
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-borde-gray-200">
+                                    <p>300,000 เป็นต้นไป</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-borde-gray-200">
+                                    <p>300,000</p>
+                                </div>
+                                <div
+                                    class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r tw-borde-gray-200">
+                                    <p>500</p>
+                                </div>
+                                <div class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-border-r-0 tw-borde-gray-200">
+                                    <p
+                                        class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                        5,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- JS -->
