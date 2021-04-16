@@ -198,7 +198,7 @@
                                                         <div
                                                             class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r-0 tw-border-b tw-borde-gray-200">
                                                             <p
-                                                                class="tw-text-green-900 tw-font-medium tw-text-5xs sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                                                class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
                                                                 400</p>
                                                         </div>
                                                     </div>
@@ -218,7 +218,7 @@
                                                         <div
                                                             class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r-0 tw-border-b tw-borde-gray-200">
                                                             <p
-                                                                class="tw-text-green-900 tw-font-medium tw-text-5xs sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                                                class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
                                                                 800</p>
                                                         </div>
                                                     </div>
@@ -238,7 +238,7 @@
                                                         <div
                                                             class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-text-base tw-border-r-0 tw-border-b tw-borde-gray-200">
                                                             <p
-                                                                class="tw-text-green-900 tw-font-medium tw-text-5xs sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                                                class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
                                                                 1,650</p>
                                                         </div>
                                                     </div>
@@ -258,7 +258,7 @@
                                                         <div
                                                             class="tw-table-cell tw-py-1 tw-py-3 tw-align-middle tw-border-r-0 tw-borde-gray-200">
                                                             <p
-                                                                class="tw-text-green-900 tw-font-medium tw-text-5xs sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
+                                                                class="tw-text-green-900 tw-font-medium tw-text-lg sm:tw-text-base md:tw-text-xxl md:tw-leading-4">
                                                                 5,000</p>
                                                         </div>
                                                     </div>
