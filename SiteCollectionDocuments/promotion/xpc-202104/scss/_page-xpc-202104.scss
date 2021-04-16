@@ -1,5 +1,11 @@
 .page-xpc-202104 {
   font-family: $font-kanit;
+  &.article {
+    padding-bottom: 0;
+    @include respond-to(tablet) {
+      padding-bottom: 0;
+    }
+  }
 
   .main {
     &.loading {
