@@ -363,7 +363,7 @@
                                     </div>
 
                                 </div>
-                                <div class="art-bottom">
+                                <!-- <div class="art-bottom">
                                     <div class="type">
                                         <p class="h-type">ลงทุน</p>
                                         <div id="tgfil" class="list-tags">
@@ -378,7 +378,7 @@
                                             <i class="ic ic-share-alt"></i>
                                         </a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
