@@ -1,3 +1,7 @@
+.main {
+  padding-top: 0;
+}
+
 .page-xpc-202104 {
   font-family: $font-kanit;
   &.article {
@@ -7,7 +11,7 @@
     }
   }
 
-  .main {
+  .main {    
     &.loading {
       opacity: 0;
     }
@@ -66,6 +70,10 @@
       }
     }
 
+    .txt-popup-link {
+      font-size: 14px;
+    }
+
     .table-anime {
       align-items: center;
       justify-content: center;
@@ -84,9 +92,9 @@
       cursor: pointer;
 
       &-txt {
-        font-family: $font-dbthaitextx;
+        font-family: $font-kanit;
         font-weight: 300;
-        font-size: 34px;
+        font-size: 24px;
         text-shadow: -1px 1px 2px #000;
         line-height: 0.8;
         color: #fff;
@@ -191,7 +199,7 @@
   &.white-popup {
     position: relative;    
     background-color: #fff;
-    padding: 60px 10px 10px 0px;
+    padding: 60px 10px 10px;
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
