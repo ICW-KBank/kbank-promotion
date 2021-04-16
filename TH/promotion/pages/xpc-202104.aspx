@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="content">
                                     <!-- Table -->
-                                    <h3 class="tw-block md:tw-hidden txt-popup tw-text-center"><a href="#"
+                                    <h3 class="tw-hidden md:tw-hidden txt-popup tw-text-center"><a href="#"
                                             class="txt-popup-link tw-text-gray-600 text-sm"><img
                                                 src="/SiteCollectionDocuments/promotion/xpc-202104/img/icons/icon-zoom.png"
                                                 class="txt-popup-icon" alt="zoom icon"> กดที่รูปเพื่อขยายตาราง</a></h3>
