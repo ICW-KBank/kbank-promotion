@@ -119,7 +119,7 @@
         <main class="main main-detail">
             <article class="article page-xpc-202104">
                 <div class="art-banner">
-                    <img alt="" loading="lazy" src="https://via.placeholder.com/2280x1000/333333/ffffff%20?Text=2280x1000">
+                    <img loading="lazy" src="/SiteCollectionDocuments/promotion/xpc-202104/img/cover/promofriday_LandingBaner_2280x1000px.jpg" alt="ศุกร์ใจกับบัตรเงินด่วน Xpress Cash">
                 </div>
                 <div class="container">
                     <div class="one-column">
