@@ -4,6 +4,11 @@
 
 .page-xpc-202104 {
   font-family: $font-kanit;
+
+  .art-banner {
+    margin-top: 0;
+  }
+  
   &.article {
     padding-bottom: 0;
     @include respond-to(tablet) {
